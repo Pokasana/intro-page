@@ -4,6 +4,9 @@ import React from 'react';
 function Intro() {
   return(
     <div id='intro-container'>
+      <h1>
+        Hi, I'm Sanae.
+      </h1>
 
     </div>
   )
