@@ -3,7 +3,7 @@ import React from 'react';
 
 function Intro() {
   return(
-    <div>
+    <div id='intro-container'>
 
     </div>
   )
