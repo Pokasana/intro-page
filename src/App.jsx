@@ -1,10 +1,12 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 import NavBar from './app/NavBar.jsx'
+import Intro from './features/Intro.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +15,10 @@ function App() {
     <>
 
       <NavBar />
+      <Routes>
+        <Route exact path="/" element={<Intro />} />
+      </Routes>
+
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
