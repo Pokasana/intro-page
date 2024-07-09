@@ -7,7 +7,7 @@ function Info() {
       <p>Software Engineer</p>
       <p>Honolulu, Hawaii, United States</p>
       <a>Mail</a>
-      <a>GitHub</a>
+      <a className='i-carbon-logo-github'>GitHub</a>
       <a>LinkedIn</a>
     </div>
   )
