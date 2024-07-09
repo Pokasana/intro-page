@@ -5,8 +5,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import NavBar from './app/NavBar.jsx'
-import Intro from './intro/Intro.jsx'
-import Info from './cv/Info.jsx'
+import Intro from './features/intro/Intro.jsx'
+import Info from './features/cv/Info.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
