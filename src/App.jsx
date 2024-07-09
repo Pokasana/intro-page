@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import reactLogo from './assets/react.svg'
@@ -15,6 +14,7 @@ function App() {
     <>
 
       <NavBar />
+
       <Routes>
         <Route exact path="/" element={<Intro />} />
       </Routes>
