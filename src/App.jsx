@@ -18,12 +18,8 @@ function App() {
 
       <Routes>
         <Route exact path="/" element={<Intro />} />
-      </Routes>
-
-      <Routes>
         <Route exact path="/cv" element={<Info />} />
       </Routes>
-
 
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
