@@ -6,6 +6,7 @@ function Info() {
       <h1>Sanae Shiromoto</h1>
       <p>Software Engineer</p>
       <p>Honolulu, Hawaii, United States</p>
+      
       <a>
         <button className="i-carbon-email" />
       </a>
