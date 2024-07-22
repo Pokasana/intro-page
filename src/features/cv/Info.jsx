@@ -1,4 +1,5 @@
 import React from 'react';
+import Education from './Education.jsx'
 
 function Info() {
   return (
@@ -6,7 +7,7 @@ function Info() {
       <h1>Sanae Shiromoto</h1>
       <p>Software Engineer</p>
       <p>Honolulu, Hawaii, United States</p>
-      
+
       <a>
         <button className="i-carbon-email" />
       </a>
@@ -16,6 +17,8 @@ function Info() {
       <a>
         <button className='i-carbon-logo-github' />
       </a>
+
+      <Education />
     </div>
   )
 }
