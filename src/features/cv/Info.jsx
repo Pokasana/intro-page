@@ -9,13 +9,9 @@ function Info() {
 
       <NameCard />
       
-      <div>
-        <Education />
-      </div>
+      <Education />
 
-      <div>
-        <Experience />
-      </div>
+      <Experience />
 
     </div>
   )
