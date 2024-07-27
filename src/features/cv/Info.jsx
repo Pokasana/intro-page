@@ -1,5 +1,6 @@
 import React from 'react';
 import Education from './Education.jsx'
+import Experience from './Experience.jsx'
 
 function Info() {
   return (
@@ -17,8 +18,15 @@ function Info() {
       <a>
         <button className='i-carbon-logo-github' />
       </a>
+      
+      <div>
+        <Education />
+      </div>
 
-      <Education />
+      <div>
+        <Experience />
+      </div>
+
     </div>
   )
 }
