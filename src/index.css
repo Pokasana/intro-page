@@ -16,11 +16,13 @@
 a {
   font-weight: 500;
   padding-right: 8px;
-  color: #242424;
+  /* color: #242424; */
+  color: inherit;
   text-decoration: inherit;
 }
 a:hover {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 body {
