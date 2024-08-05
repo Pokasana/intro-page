@@ -4,7 +4,7 @@ function NameCard() {
   return (
     <div className="mt-10">
       <h1>Sanae Shiromoto</h1>
-      <p>Software Engineer</p>
+      <p className="font-bold">Software Engineer</p>
       <p>Honolulu, Hawaii, United States</p>
 
       <a>
