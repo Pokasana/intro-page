@@ -2,9 +2,9 @@ import React from 'react';
 
 function ProjectCard() {
   return (
-    <div id="project-card">
-      <p>Project xxx</p>
-    </div>
+    <section>
+      <h3>Project xxx</h3>
+    </section>
   )
 };
 
