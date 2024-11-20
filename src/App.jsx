@@ -7,6 +7,7 @@ import './App.css'
 import NavBar from './app/NavBar.jsx'
 import Intro from './features/intro/Intro.jsx'
 import Info from './features/cv/Info.jsx'
+import Projects from './features/projects/Projects.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Intro />} />
         <Route exact path="/cv" element={<Info />} />
+        <Route exact path="/projects" element={<Projects />} />
       </Routes>
 
       {/* <div>
