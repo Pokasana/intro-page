@@ -20,7 +20,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none!important;
   font-weight: bold;
 }
 
