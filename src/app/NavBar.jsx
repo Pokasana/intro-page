@@ -8,11 +8,11 @@ function NavBar() {
       <NavLink id="nav_link" to="/">
         sanae.s
       </NavLink>
-      <NavLink id="nav_link" to="/cv">
-        cv
-      </NavLink>
       <NavLink id="nav_link" to="/projects">
         projects
+      </NavLink>
+      <NavLink id="nav_link" to="/cv">
+        cv
       </NavLink>
     </div>
   );
