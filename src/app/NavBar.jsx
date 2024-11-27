@@ -3,9 +3,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
-  
+
   return (
-    <div id="nav_bar" className="relative flex-none">
+    <div relative flex-none>
       <NavLink to="/">
         sanae.s
       </NavLink>
