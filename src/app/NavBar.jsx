@@ -9,9 +9,9 @@ function NavBar() {
       <NavLink to="/">
         sanae.s
       </NavLink>
-      <NavLink to="/projects">
+      {/* <NavLink to="/projects">
         projects
-      </NavLink>
+      </NavLink> */}
       <NavLink to="/cv">
         cv
       </NavLink>
