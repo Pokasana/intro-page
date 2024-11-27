@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
 
   return (
-    <div relative flex-none>
+    <div className="relative flex-none">
       <NavLink to="/">
         sanae.s
       </NavLink>
