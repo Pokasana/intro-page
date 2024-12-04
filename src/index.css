@@ -42,6 +42,11 @@ h1 {
   line-height: 1.1;
 }
 
+h4, p {
+  font-family: "Merriweather", sans-serif;
+  color: #888888;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;

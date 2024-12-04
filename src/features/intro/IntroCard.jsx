@@ -3,12 +3,12 @@ import React from 'react';
 function IntroCard() {
   return (
     <section className="w-500px">
-      <h3>
+      <h4 className="text-muted">
         I'm a full-stack software engineer.
-      </h3>
-      <h3>
+      </h4>
+      <h4>
         I'm detaile oriented, self-motivated and self-improving. Always have a mind set of a learner.
-      </h3>
+      </h4>
     </section>
   )
 }
