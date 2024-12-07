@@ -1,5 +1,6 @@
 :root {
-  position: fixed;
+  position: relative;
+  overflow: auto;
   max-width: 1280px;
   height: 100%;
   margin: 0 auto;
@@ -9,6 +10,8 @@
   background-color: #242424;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+  scroll-margin-top: 3rem;
+  scroll-margin-bottom: 3rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

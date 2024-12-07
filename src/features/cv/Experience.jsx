@@ -2,7 +2,7 @@ import React from 'react';
 
 function Experience() {
   return (
-    <div className="py-5">
+    <div className="py-2 my-0">
       <h2>Experience</h2>
 
       <section className="py-2">
