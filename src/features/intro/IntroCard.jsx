@@ -2,8 +2,8 @@ import React from 'react';
 
 function IntroCard() {
   return (
-    <section className="w-500px">
-      <h4 className="text-muted">
+    <section>
+      <h4>
         I'm a full-stack software engineer.
       </h4>
       <h4>
