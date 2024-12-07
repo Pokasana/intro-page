@@ -11,7 +11,6 @@ function Experience() {
           <h4>Business Operation Assistant</h4>
           <p>Nov 2019 - Oct 2023</p>
         </div>
-        <h4>Business Operation Assistant</h4>
       </section>
 
       <section className="py-2">
@@ -20,13 +19,13 @@ function Experience() {
           <h4>Sales Operation Assistant</h4>
           <p>Feb 2016 - Dec 2018</p>
         </div>
-        <p>Worked as an assistant for the sales management section. Managed marketing/sales-related tools, and distribution schedule.</p>
+        <aside className="m-1">Worked as an assistant for the sales management section. Managed marketing/sales-related tools, and distribution schedule.</aside>
 
-        <div className="flex justify-between w-full">
+        <div className="flex mt-5 justify-between w-full">
           <h4>Shared Services Lead</h4>
           <p>Sep 2015 - Feb 2016</p>
         </div>
-        <p>Sales administrative tasks, such as managing leases, office facilities, and invoices.</p>
+        <aside className="m-1">Sales administrative tasks, such as managing leases, office facilities, and invoices.</aside>
       </section>
     </div>
   )
