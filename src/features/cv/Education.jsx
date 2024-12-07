@@ -2,7 +2,7 @@ import React from 'react';
 
 function Education() {
   return (
-    <div>
+    <div className="py-5">
       <h2>Education</h2>
       <section className="py-2">
         <div className="flex justify-between w-full">
