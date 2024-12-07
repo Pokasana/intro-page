@@ -11,6 +11,9 @@ function Experience() {
           <p>2019 - 2023</p>
         </div>
         <h4>Business Operation Assistant</h4>
+        <aside className="m-1">
+
+        </aside>
       </section>
 
       <section className="py-2">

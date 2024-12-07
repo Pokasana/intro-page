@@ -3,7 +3,7 @@ import IntroCard from './IntroCard.jsx'
 
 function Intro() {
   return (
-    <div id='intro-container'>
+    <div  className="mx-auto w-full print:space-y-6">
       <h1>
         Hi, I'm Sanae.
       </h1>

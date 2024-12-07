@@ -5,7 +5,7 @@ import Experience from './Experience.jsx'
 
 function Info() {
   return (
-    <div className="mx-auto w-full print:space-y-1">
+    <div className="mx-auto w-full print:space-y-6">
 
       <NameCard />
       
