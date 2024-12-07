@@ -1,7 +1,7 @@
 :root {
   position: relative;
   overflow: auto;
-  max-width: 1280px;
+  max-width: 600px;
   height: 100%;
   margin: 0 auto;
   padding: 2rem;
@@ -45,7 +45,7 @@ h3 {
   margin: 5px 0px 5px;
 }
 
-h4, p {
+h4, p, aside {
   margin: 5px 0px 5px;
   font-family: "Merriweather", sans-serif;
   color: #888888;
