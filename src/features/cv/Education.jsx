@@ -9,6 +9,7 @@ function Education() {
           <h3>Flatiron School</h3><p>2024</p>
         </div>
         <h4>Software Engineering Flex Course</h4>
+        
       </section>
 
       <section className="py-2">

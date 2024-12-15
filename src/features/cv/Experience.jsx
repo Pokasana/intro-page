@@ -11,9 +11,9 @@ function Experience() {
           <p>2019 - 2023</p>
         </div>
         <h4>Business Operation Assistant</h4>
-        <aside className="m-1">
+        <p className="m-1">
           I debugged an automated data entry tool using VBA to improve accuracy and streamline operations. Collaborating with the sales quality team, I helped refine processes and reduce person-hours. I also systemized tasks, improving team efficiency and client satisfaction in reservation management.
-        </aside>
+        </p>
       </section>
 
       <section className="py-2">
@@ -22,17 +22,17 @@ function Experience() {
           <h4>Sales Operation Assistant</h4>
           <p>2016 - 2018</p>
         </div>
-        <aside className="m-1">
+        <p className="m-1">
           I managed marketing and educational tools, coordinating distribution for 100+ sales reps and multiple projects. I handled customer data using SAP and analyzed sales results to support KPIs. Additionally, I collaborated with IT, finance, and sales teams to organize outsourcing requirements for a new system.
-        </aside>
+        </p>
 
         <div className="flex mt-5 justify-between w-full">
           <h4>Shared Services Lead</h4>
           <p>2015 - 2016</p>
         </div>
-        <aside className="m-1">
+        <p className="m-1">
           I led a team through a critical business transition, troubleshooting and resolving issues to ensure smooth operations. By improving team communication, I boosted collaboration and helped meet project milestones, driving overall success.
-        </aside>
+        </p>
       </section>
     </div>
   )
