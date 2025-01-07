@@ -7,6 +7,17 @@ function Experience() {
 
       <section className="py-2">
         <div className="flex justify-between w-full">
+          <h3>Outlier<span className="m-5 font-semibold">Honolulu, HI</span></h3>
+          <p>2024 - 2024</p>
+        </div>
+        <h4>AI Model Trainer</h4>
+        <p className="m-1">
+          I evaluated and improved the quality of AI-generated responses by providing feedback and making revisions. I worked with Large Language Models (LLMs) and multimodal prompts to enhance accuracy, mitigate harmful content, and ensure optimal performance.
+        </p>
+      </section>
+
+      <section className="py-2">
+        <div className="flex justify-between w-full">
           <h3>Rakuten Travel Hawaii, LCC<span className="m-5 font-semibold">Honolulu, HI</span></h3>
           <p>2019 - 2023</p>
         </div>
