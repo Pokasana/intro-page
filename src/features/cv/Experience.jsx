@@ -8,7 +8,7 @@ function Experience() {
       <section className="py-2">
         <div className="flex justify-between w-full">
           <h3>Outlier<span className="m-5 font-semibold">Honolulu, HI</span></h3>
-          <p>2024 - 2024</p>
+          <p>2024 - 2025</p>
         </div>
         <h4>AI Model Trainer</h4>
         <p className="m-1">
