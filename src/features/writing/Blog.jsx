@@ -21,7 +21,7 @@ function Blog() {
             <a
             className="hover:font-semibold"
             href="https://medium.com/@sanae.s.soma/cookies-are-everywhere-what-are-they-are-a9f9ef3d3abe" target="_blank">
-            Cookies are everywhere, what are they are?</a>
+            Cookies are everywhere, what are they?</a>
             <br/>
             <small className="ml-2">Published on Mar 27, 2024 / 6 min read</small>
           </li>

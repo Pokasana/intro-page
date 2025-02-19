@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
 
   return (
-    <div className="relative flex-none grid gap-1 grid-cols-5 text-center">
+    <div className="grid grid-cols-5 text-center">
       <NavLink className="hover:font-bold" to="/">
         sanae.s
       </NavLink>
