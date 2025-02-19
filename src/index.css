@@ -22,10 +22,6 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
-a:hover {
-  text-decoration: none!important;
-  font-weight: bold;
-}
 
 body {
   font-family: "Gill Sans", system-ui, Helvetica, Arial, sans-serif;
@@ -46,7 +42,7 @@ h3 {
   margin: 5px 0px 5px;
 }
 
-h4, p, aside {
+h4, p, aside, small {
   margin: 5px 0px 5px;
   font-family: "Merriweather", sans-serif;
   color: #888888;

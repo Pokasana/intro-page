@@ -6,16 +6,16 @@ function NavBar() {
 
   return (
     <div className="relative flex-none grid gap-1 grid-cols-5 text-center">
-      <NavLink to="/">
+      <NavLink className="hover:font-bold" to="/">
         sanae.s
       </NavLink>
-      {/* <NavLink to="/projects">
+      {/* <NavLink className="hover:font-bold" to="/projects">
         projects
       </NavLink> */}
-      <NavLink to="/cv">
+      <NavLink className="hover:font-bold" to="/cv">
         cv
       </NavLink>
-      <NavLink to="/writing">
+      <NavLink className="hover:font-bold" to="/writing">
         writing
       </NavLink>
     </div>
