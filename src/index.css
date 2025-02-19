@@ -63,10 +63,13 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
-    text-decoration: underline;
-  }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@media only screen and (max-device-width: 600px) {
+  a:hover {
+    text-decoration: underline;
   }
 }
