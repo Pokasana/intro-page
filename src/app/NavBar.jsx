@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
 
   return (
-    <div className="relative flex-none grid gap-1 grid-cols-4">
+    <div className="relative flex-none grid gap-1 grid-cols-4 text-center">
       <NavLink to="/">
         sanae.s
       </NavLink>
@@ -14,6 +14,9 @@ function NavBar() {
       </NavLink> */}
       <NavLink to="/cv">
         cv
+      </NavLink>
+      <NavLink to="/writing">
+        writing
       </NavLink>
     </div>
   );
