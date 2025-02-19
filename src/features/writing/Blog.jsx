@@ -2,7 +2,7 @@ import React from 'react';
 
 function Blog() {
   return (
-    <div>
+    <div className="py-10">
       <h1>
         Technical Writing
       </h1>
