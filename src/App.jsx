@@ -5,6 +5,7 @@ import NavBar from './app/NavBar.jsx'
 import Intro from './features/intro/Intro.jsx'
 import Info from './features/cv/Cv.jsx'
 import Projects from './features/projects/Projects.jsx'
+import Blog from './features/writing/Blog.jsx'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/" element={<Intro />} />
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/cv" element={<Info />} />
+        <Route exact path="/writing" element={<Blog />} />
       </Routes>
 
     </>
