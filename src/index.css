@@ -17,6 +17,7 @@
 }
 
 a {
+  position: static;
   padding-right: 8px;
   color: inherit;
   text-decoration: inherit;
