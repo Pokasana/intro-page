@@ -8,7 +8,7 @@ function Blog() {
       </h1>
 
       <div>
-        <ul className="list-none ">
+        <ul className="list-none">
           <li className="py-3">
             <a 
             className="hover:font-semibold"
