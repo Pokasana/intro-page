@@ -33,7 +33,7 @@ function Education() {
       {educationCards}
 
     </div>
-  )
-}
+  );
+};
 
 export default Education;
