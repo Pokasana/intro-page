@@ -11,7 +11,7 @@ function NavBar() {
   ];
 
   return (
-    <div className="grid grid-cols-5 text-center">
+    <div className="grid grid-cols-5 text-center h-10px">
 
       {navLinks.map(link => <NavLink key={link.name} className="hover:font-bold" to={link.path}>{link.name}</NavLink>)}
 
