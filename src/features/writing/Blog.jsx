@@ -43,19 +43,18 @@ function Blog() {
 
       <div>
         <ul className="list-none ">
-        {blogPosts.map(post => {
-          return (
-            <li className="py-3">
-              <a 
-              className="hover:font-semibold inline-block transform scale-x-100 hover:scale-x-110 transitoni-all"
-              href={post.url} target="_blank">
-              {post.title}</a>
-              <br/>
-              <small className="ml-2">Published on {post.date} / {post.platform}</small>
-            </li>
-          )
-        })}
-
+          {blogPosts.map(post => {
+            return (
+              <li className="py-3 whitespace-nowrap">
+                <a 
+                className="hover:font-semibold inline-block transform scale-x-100 hover:scale-x-110 transitoni-all"
+                href={post.url} target="_blank">
+                {post.title}</a>
+                <br/>
+                <small className="ml-2">Published on {post.date} / {post.platform}</small>
+              </li>
+            )
+          })}
         </ul>
       </div>
     </div>
