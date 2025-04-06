@@ -47,7 +47,7 @@ function Blog() {
             return (
               <li className="py-3 whitespace-nowrap">
                 <a 
-                className="hover:font-semibold inline-block transform scale-x-100 hover:scale-x-110 transitoni-all"
+                className="h-20px hover:font-semibold inline-block transform scale-x-100 hover:scale-x-110 transitoni-all"
                 href={post.url} target="_blank">
                 {post.title}</a>
                 <br/>
